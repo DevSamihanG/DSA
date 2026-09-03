@@ -26,19 +26,17 @@ Space Complexity: O(1)
 
 package main
 
-import("fmt")
+func main() {
 
-func main(){
-	
 	arr := [5]int{5, 0, 8, 0, 3}
-	
+
 	write := 0
-	
-	for _, value := range arr{
-		if value != 0{
+
+	for _, value := range arr {
+		if value != 0 {
 			arr[write] = value
-			write++	
+			write++
 		}
 	}
-	
+
 }
